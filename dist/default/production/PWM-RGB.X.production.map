@@ -1,0 +1,71 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Wed Aug 31 23:23:35 2016
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                   .org_1       code   0x000008    program   0x000004
+                   .org_2       code   0x000100    program   0x000096
+.config_300000_BUILD/DEFAULT/PRODUCTION/PWMAIN.    romdata   0x300000    program   0x000001
+.config_300001_BUILD/DEFAULT/PRODUCTION/PWMAIN.    romdata   0x300001    program   0x000001
+.config_300002_BUILD/DEFAULT/PRODUCTION/PWMAIN.    romdata   0x300002    program   0x000001
+.config_300003_BUILD/DEFAULT/PRODUCTION/PWMAIN.    romdata   0x300003    program   0x000001
+.config_300005_BUILD/DEFAULT/PRODUCTION/PWMAIN.    romdata   0x300005    program   0x000001
+.config_300006_BUILD/DEFAULT/PRODUCTION/PWMAIN.    romdata   0x300006    program   0x000001
+.config_300008_BUILD/DEFAULT/PRODUCTION/PWMAIN.    romdata   0x300008    program   0x000001
+.config_300009_BUILD/DEFAULT/PRODUCTION/PWMAIN.    romdata   0x300009    program   0x000001
+.config_30000A_BUILD/DEFAULT/PRODUCTION/PWMAIN.    romdata   0x30000a    program   0x000001
+.config_30000B_BUILD/DEFAULT/PRODUCTION/PWMAIN.    romdata   0x30000b    program   0x000001
+.config_30000C_BUILD/DEFAULT/PRODUCTION/PWMAIN.    romdata   0x30000c    program   0x000001
+.config_30000D_BUILD/DEFAULT/PRODUCTION/PWMAIN.    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000008    0x00000b      
+                            0x000100    0x000195      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            172 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      ISR   0x000164    program     static C:\Users\Julian Santos\MPLABXProjects\PWM-RGB.X\PWMain.asm
+                 ISR_INT0   0x00016c    program     static C:\Users\Julian Santos\MPLABXProjects\PWM-RGB.X\PWMain.asm
+                     Main   0x000100    program     static C:\Users\Julian Santos\MPLABXProjects\PWM-RGB.X\PWMain.asm
+                    TABLE   0x00018c    program     static C:\Users\Julian Santos\MPLABXProjects\PWM-RGB.X\PWMain.asm
+             _.org_2_0112   0x000112    program     static C:\Users\Julian Santos\MPLABXProjects\PWM-RGB.X\PWMain.asm
+               configINT0   0x000126    program     static C:\Users\Julian Santos\MPLABXProjects\PWM-RGB.X\PWMain.asm
+                configPWM   0x00012e    program     static C:\Users\Julian Santos\MPLABXProjects\PWM-RGB.X\PWMain.asm
+               debouncing   0x00018a    program     static C:\Users\Julian Santos\MPLABXProjects\PWM-RGB.X\PWMain.asm
+                 dirtable   0x000152    program     static C:\Users\Julian Santos\MPLABXProjects\PWM-RGB.X\PWMain.asm
+            initialconfig   0x000116    program     static C:\Users\Julian Santos\MPLABXProjects\PWM-RGB.X\PWMain.asm
+            initialstates   0x000144    program     static C:\Users\Julian Santos\MPLABXProjects\PWM-RGB.X\PWMain.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     Main   0x000100    program     static C:\Users\Julian Santos\MPLABXProjects\PWM-RGB.X\PWMain.asm
+             _.org_2_0112   0x000112    program     static C:\Users\Julian Santos\MPLABXProjects\PWM-RGB.X\PWMain.asm
+            initialconfig   0x000116    program     static C:\Users\Julian Santos\MPLABXProjects\PWM-RGB.X\PWMain.asm
+               configINT0   0x000126    program     static C:\Users\Julian Santos\MPLABXProjects\PWM-RGB.X\PWMain.asm
+                configPWM   0x00012e    program     static C:\Users\Julian Santos\MPLABXProjects\PWM-RGB.X\PWMain.asm
+            initialstates   0x000144    program     static C:\Users\Julian Santos\MPLABXProjects\PWM-RGB.X\PWMain.asm
+                 dirtable   0x000152    program     static C:\Users\Julian Santos\MPLABXProjects\PWM-RGB.X\PWMain.asm
+                      ISR   0x000164    program     static C:\Users\Julian Santos\MPLABXProjects\PWM-RGB.X\PWMain.asm
+                 ISR_INT0   0x00016c    program     static C:\Users\Julian Santos\MPLABXProjects\PWM-RGB.X\PWMain.asm
+               debouncing   0x00018a    program     static C:\Users\Julian Santos\MPLABXProjects\PWM-RGB.X\PWMain.asm
+                    TABLE   0x00018c    program     static C:\Users\Julian Santos\MPLABXProjects\PWM-RGB.X\PWMain.asm
+
+
